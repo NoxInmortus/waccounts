@@ -1,0 +1,28 @@
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#wrap {
+  min-height: auto;
+  /* equal to footer height */
+  margin-bottom: -150px;
+}
+
+#footer,
+#push {
+  height: 150px;
+}
+
+.alert-top
+{
+  position: fixed;
+  top: 5px;
+  right: 2%;
+  width: 25%;
+}
